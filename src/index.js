@@ -122,6 +122,8 @@ import Storeinter from './Component/INTERVIEW/Redux/Store/Store';
 import DefaultProps from './Component/Props/DefaultProps';
 import DynamicForm from './Component/DynamicForm';
 import Level3Form from './Component/Level3Form';
+import Studentform from './Component/StudentsTable/Studentform';
+import StudentTable from './Component/StudentsTable/StudentTable';
 
 
 
@@ -326,6 +328,9 @@ root.render(
     {/* <DefaultProps /> */}
     {/* <DynamicForm /> */}
     {/* <Level3Form /> */}
+
+    {/* ==============================student table================================ */}
+ <Studentform/>
 
   </React.StrictMode>
 );
